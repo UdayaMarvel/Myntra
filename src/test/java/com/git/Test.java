@@ -16,6 +16,10 @@ public class Test {
 public static void main(String[] args) {
 	System.out.println("Test");
 	System.out.println("New Test");
+<<<<<<< HEAD
 	
+=======
+	System.out.println("Old Test");
+>>>>>>> 397afef62ef92673fa31850cb195d508fe968a64
 }
 }
