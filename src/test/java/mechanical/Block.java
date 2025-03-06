@@ -13,6 +13,9 @@ public class Block {
 			}
 			k++;
 			System.out.println("hi");
+
+			System.out.println("hello");
+
 		}
 		
 		
