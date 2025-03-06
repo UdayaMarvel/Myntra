@@ -27,6 +27,7 @@ public class Mintt {
 	System.out.println("kumar"+count);
 	System.out.println("raina"+count2);
 		System.out.println("Suresh"+count2);
+		System.out.println("aruuuu");
 	
 }
 }
