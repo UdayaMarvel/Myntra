@@ -38,7 +38,7 @@ public class watersystem {
 			s.corporationTank();
 			s.villageTank();
 			System.out.println(a);
-			System.out.println("Hi");
+			System.out.println(Hi);
 		}
 	}
 }
