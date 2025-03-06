@@ -10,6 +10,10 @@ public class GitTest {
 	        if (age >= 18) {
 	        	
 	        System.out.println("Adult");
+	        System.out.println("adult 2");
+	        
+	        
+	        
 
 	        }
 	        // 2. 'if-else' statement
