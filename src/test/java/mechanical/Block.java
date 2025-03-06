@@ -12,7 +12,7 @@ public class Block {
 					
 			}
 			k++;
-			System.out.println();
+			System.out.println("hi");
 		}
 		
 		
