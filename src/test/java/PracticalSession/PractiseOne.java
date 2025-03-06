@@ -4,7 +4,6 @@ public class PractiseOne {
 	public static int[] removeDuplicates(int[] input){
 		int j = 0;
 		int i = 1;
-
 		if(input.length < 2){
 		return input;
 		}
