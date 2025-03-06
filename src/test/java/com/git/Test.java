@@ -3,14 +3,10 @@ package com.git;
 public class Test {
 public static void main(String[] args) {
 	System.out.println("Test");
-
-
-	
-	System.out.println("kavi");
-	System.out.println("moon");
-	System.out.println("galaxy");
-
-	System.out.println("task");
-
+	System.out.println("krishna");
+	System.out.println("Test1");
+	System.out.println("Test2");
+	System.out.println("krishna1");
+	System.out.println("Test3");
 }
 }
