@@ -7,7 +7,7 @@ public class sort {
 	    void bubbleSort(int arr[])
 	    {
 	        int n = arr.length;
-	      
+	      23
 	        for (int i = 0; i < n - 1; i++)
 	            for (int j = 0; j < n - i - 1; j++)
 	                if (arr[j] > arr[j + 1]) {
@@ -17,6 +17,7 @@ public class sort {
 	                    arr[j] = arr[j + 1];
 	                    arr[j + 1] = temp;
 	                }
+	      dd
 	    }
 
 	    // Driver method to test above
