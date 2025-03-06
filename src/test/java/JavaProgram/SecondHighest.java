@@ -16,8 +16,6 @@ public class SecondHighest {
 		}
 		System.out.println();
 		System.out.println("Second Highest value is: "+a[a.length-2]);
-		
-
 	}
 	}
 	
