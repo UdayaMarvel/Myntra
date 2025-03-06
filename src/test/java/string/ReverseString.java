@@ -9,6 +9,7 @@ public class ReverseString {
 			revstring += Name.charAt(i);
 		}
 	   System.out.println("Reversed String:"+revstring);
+	   System.out.println(Name);
 	}
 
 }
