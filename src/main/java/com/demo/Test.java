@@ -1,3 +1,4 @@
+
 package com.demo;
 
 public class Test {
@@ -8,5 +9,6 @@ public class Test {
 		System.out.println("olii");
 		int a=36767;
 		int d =99;
+		int c=33;
 	}
 }
