@@ -1,44 +1,84 @@
 package com.git;
 
-import java.io.File;
-import java.io.IOException;
-
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
 
 public class Task {
-	static WebDriver driver;
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		
-		driver = new ChromeDriver();
+		List<Integer> a =new ArrayList<>();
+		a.add(5660);
+		a.add(98);
+		a.add(512);
+		a.add(512);
+		a.add(5484);
 		
-		driver.get("https://demo.guru99.com/test/drag_drop.html");
-		WebElement drag = driver.findElement(By.xpath("(//a[@class='button button-orange'])[4]"));
-		WebElement drop = driver.findElement(By.xpath("(//li[@class='placeholder'])[2]"));
+		int size = a.size();
+		System.out.println(size);
 		
-		WebElement drag1 = driver.findElement(By.xpath("(//a[@class='button button-orange'])[5]"));
-		WebElement drop1 = driver.findElement(By.xpath("(//li[@class='placeholder'])[1]"));
+		System.out.println(a);
 		
-		WebElement drag2 = driver.findElement(By.xpath("(//a[@class='button button-orange'])[6]"));
-		WebElement drop2 = driver.findElement(By.xpath("(//li[@class='placeholder'])[3]"));
+		Object object = a.get(3);
+		System.out.println(object);
 		
-		WebElement drag3 = driver.findElement(By.xpath("(//a[@class='button button-orange'])[2]"));
-		WebElement drop3 = driver.findElement(By.xpath("(//li[@class='placeholder'])[4]"));
-		driver.manage().window().maximize();
-		Actions a = new Actions(driver);
-		a.dragAndDrop(drag, drop).perform();
-		a.dragAndDrop(drag1, drop1).perform();
-		a.dragAndDrop(drag2, drop2).perform();
-		a.dragAndDrop(drag3, drop3).perform();
-			
+		a.add(0,153);
+		System.out.println(a);
 		
-	}
+		a.set(3, 996);
+		System.out.println(a);
+		
+		Collections.sort(a);
+		System.out.println("Sorted order is "+a);
+		for(int i=0;i<a.size();i++) {
+			System.out.println(a.get(i));
+		}
+		
+		Collections.reverse(a);
+		System.out.println("Reversed order is "+a);
+		
+		int indexOf = a.indexOf(512);
+		System.out.println("Index of 512 is "+indexOf);
+		
+		int lastIndexOf = a.lastIndexOf(512);
+		System.out.println("Last index of 512 is "+lastIndexOf);
+		
+		boolean contains = a.contains(98);
+		System.out.println(contains);
+		
+		boolean empty = a.isEmpty();
+		System.out.println(empty);
+		
+		Object remove = a.remove(2);
+		System.out.println(a);
+		System.out.println("Removed value is "+remove);
+		
 
-
+		List a1 = new ArrayList();
+		a1.addAll(a);
+		System.out.println(a1);
+		a1.add(52345);
+		System.out.println(a1);
+		
+		a1.removeAll(a);
+		System.out.println(a1);
+		
+		a1.retainAll(a);
+		System.out.println(a);
+		
+		Iterator<Integer> iterator = a.iterator();
+		while (iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+		
+		ListIterator<Integer> listIterator = a.listIterator();
+		while(listIterator.hasNext()) {
+			System.out.println(listIterator.next());
+		}
+		while (listIterator.hasPrevious()) {
+			System.out.println(listIterator.previous());
+		}
+		}
 }
