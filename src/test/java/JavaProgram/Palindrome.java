@@ -18,7 +18,7 @@ public class Palindrome {
 	    	   System.out.println("It is the palindrome: "+name);
 	       } else {
 	    	   System.out.println("It is not a palindrome: "+name);
-		   System.out.println("It is not a palindrome: "+name1);
+		  // System.out.println("It is not a palindrome: "+name1);
 	       }
 	       }
 }
