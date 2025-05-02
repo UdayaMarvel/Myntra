@@ -16,8 +16,6 @@ public class MenLocators extends CommonFunction {
 		PageFactory.initElements(driver, this);
 	}
 	
-	//Unknown update
-	
 	@FindBy(xpath="//input[@placeholder='Search for products, brands and more']")
 	private WebElement search;
 	
