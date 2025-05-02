@@ -57,6 +57,9 @@ public class CommonFunction extends ReusableCodes{
 		a.sendKeys(e, value).build().perform();
 	}
 
+	public void newMethod() {
+		System.out.println("Test Method");
+	}
 	
 
 	@Override
