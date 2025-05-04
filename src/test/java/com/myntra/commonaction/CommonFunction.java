@@ -60,7 +60,10 @@ public class CommonFunction extends ReusableCodes{
 	public void newMethod() {
 		System.out.println("Test Method");
 	}
-	
+
+	public void newChannel() {
+		System.out.println("Test Channel");
+	}
 
 	@Override
 	public void touch(WebElement e, int i) {
