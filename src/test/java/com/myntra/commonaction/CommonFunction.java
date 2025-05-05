@@ -60,10 +60,22 @@ public class CommonFunction extends ReusableCodes{
 	public void newMethod() {
 		System.out.println("Test Method");
 	}
+
 	
 	public void newMethod2() {
 		System.out.println("Test Drive");
+
+
+	public void newChannel() {
+		System.out.println("Test Channel");
+		System.out.println("New Test for Conflicts");
+
 	}
+
+	public void newChannel2() {
+		System.out.println("Test");
+	}
+	
 
 	@Override
 	public void touch(WebElement e, int i) {
@@ -71,7 +83,13 @@ public class CommonFunction extends ReusableCodes{
 		
 	}
 
+	public String exClass() {
+		return null;
+	}
 
+public void testNewMethod(){
+	System.out.println("Conflict between remote and Local");
+}
 
 	@Override
 	public void browserClose() {
