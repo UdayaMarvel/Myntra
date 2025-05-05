@@ -62,6 +62,11 @@ public class CommonFunction extends ReusableCodes{
 	}
 	
 
+	public void newChannel1() {
+		System.out.println("Test");
+	}
+	
+
 	@Override
 	public void touch(WebElement e, int i) {
 		a.click(e).build().perform();
