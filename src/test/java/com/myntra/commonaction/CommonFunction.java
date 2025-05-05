@@ -78,7 +78,9 @@ public class CommonFunction extends ReusableCodes{
 	}
 
 
-
+	public String exClass() {
+		return null;
+	}
 	@Override
 	public void browserClose() {
 		driver.quit();
