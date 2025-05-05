@@ -63,6 +63,7 @@ public class CommonFunction extends ReusableCodes{
 
 	public void newChannel() {
 		System.out.println("Test Channel");
+		System.out.println("New Test for Conflicts");
 	}
 
 	@Override
