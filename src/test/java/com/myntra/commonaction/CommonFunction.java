@@ -77,10 +77,14 @@ public class CommonFunction extends ReusableCodes{
 		
 	}
 
-
 	public String exClass() {
 		return null;
 	}
+
+public void testNewMethod(){
+	System.out.println("Conflict between remote and Local");
+}
+
 	@Override
 	public void browserClose() {
 		driver.quit();
