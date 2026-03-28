@@ -175,6 +175,11 @@ public class Men_Module extends CommonFunction {
 	    System.out.println(categories);
 	    
 	}
+	
+	public void pushTest() {
+		System.out.println("Trying to Push");
+	}
+	
 
 	@Then("validate the Explore top brands diplayed")
 	public void validate_the_Explore_top_brands_diplayed() {
